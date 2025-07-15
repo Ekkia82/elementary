@@ -6,20 +6,17 @@ public class Calculator {
         int result = first + second;
         System.out.println(result);
     }
-}
 
-    class MathFunc {
-
-        public static int func1(int x) {
-            int y = x;
-            return y;
-        }
-
-        public static void main(String[] args) {
-            Calculator.plus(1, 2);
-            Calculator.plus(10, 11);
-            int result3 = MathFunc.func1(100);
-            System.out.println(result3);
-        }
+    public static void minus(int first, int second) {
+        int result = first - second;
+        System.out.println(result);
     }
 
+    public static void main(String[] args) {
+        plus(1, 2);
+        plus(10, 11);
+        minus(7, 3);
+        minus(2, 6);
+
+    }
+}
