@@ -7,14 +7,16 @@ public class TrgArea {
         double second = p - b;
         double third = p - c;
         double rsl = first * second * third * p;
-        double four = Math.sqrt(rsl);
+        double s = Math.sqrt(rsl);
 
-        return four;
+        return s;
     }
 
     public static void main(String[] args) {
         double four = TrgArea.area(2, 2, 2);
+        double five = TrgArea.area(4, 4, 4);
         System.out.println("area (2, 2, 2) = " + four);
+        System.out.println("area (4, 4, 4) = " + five);
     }
 }
 
