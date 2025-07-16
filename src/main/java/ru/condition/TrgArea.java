@@ -3,13 +3,10 @@ package ru.condition;
 public class TrgArea {
     public static double area(double a, double b, double c) {
         double p = (a + b + c) / 2;
-        double first = p - a;
-        double second = p - b;
-        double third = p - c;
-        double rsl = first * second * third * p;
-        double s = Math.sqrt(rsl);
+        double first = (p - a) * (p - b) * (p - c);
+        double second = Math.sqrt(first);
 
-        return s;
+        return second;
     }
 
     public static void main(String[] args) {
