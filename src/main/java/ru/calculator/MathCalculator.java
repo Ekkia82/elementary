@@ -9,12 +9,12 @@ public class MathCalculator {
                 + multiply(first, second);
     }
 
-    public static double minusAndDivision(double first, double second){
+    public static double minusAndDivision(double first, double second) {
         return minus(first, second)
                 + division(first, second);
     }
 
-    public static double summOfAll(double first, double second){
+    public static double summOfAll(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
                 + division(first, second)
