@@ -12,14 +12,13 @@ public class MathCalculator {
     public static double minusAndDivision(double first, double second){
         return minus(first, second)
                 + division(first, second);
-
     }
 
     public static double summOfAll(double first, double second){
         return sum(first, second)
-                +multiply(first, second)
-                +division(first, second)
-                +minus(first, second);
+                + multiply(first, second)
+                + division(first, second)
+                + minus(first, second);
     }
 
     public static void main(String[] args) {
