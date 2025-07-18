@@ -57,5 +57,3 @@ public class Converter {
         System.out.println("600 euros are 60000. Test result : " + passed3);
     }
 }
-
-
